@@ -8,6 +8,7 @@ public class InsertionSort implements Runnable{
     private VisualizerFrame frame;
     private boolean fast;
 
+    
     public InsertionSort(Integer[] toBeSorted, VisualizerFrame frame, boolean fast) {
         this.toBeSorted = toBeSorted;
         this.frame = frame;
